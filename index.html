@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroTech - Inovação no Campo</title>
+    <style>
+        /* Estilos Gerais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            color: #333;
+            background-color: #f4f7f4;
+            line-height: 1.6;
+        }
+        /* Cabeçalho */
+        header {
+            background-color: #2e6f40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        header p {
+            font-style: italic;
+            opacity: 0.9;
+        }
+        /* Banner Principal */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://unsplash.com') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .hero h2 {
+            font-size: 2.2rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+        /* Seção de Conteúdo */
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .sobre {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+        .sobre h3 {
+            color: #2e6f40;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+        /* Cards de Serviços/Produtos */
+        .servicos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            border-top: 5px solid #8bc34a;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .card h4 {
+            color: #2e6f40;
+            margin-bottom: 10px;
+            font-size: 1.4rem;
+        }
+        /* Rodapé */
+        footer {
+            background-color: #1e3f26;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AgroTech</h1>
+        <p>Conectando a tecnologia ao cultivo sustentável</p>
+    </header>
+
+    <section class="hero">
+        <h2>O futuro da agricultura começa aqui</h2>
+    </section>
+
+    <main class="container">
+        <section class="sobre">
+            <h3>Quem Somos</h3>
+            <p>Somos uma empresa dedicada a trazer as melhores soluções tecnológicas para o produtor rural. Nosso foco é aumentar a produtividade no campo de forma sustentável, respeitando o meio ambiente e otimizando os recursos naturais através de monitoramento inteligente e manejo de precisão.</p>
+        </section>
+
+        <section class="servicos">
+            <div class="card">
+                <h4>🌾 Agricultura de Precisão</h4>
+                <p>Uso de sensores de solo e mapeamento via satélite para aplicar insumos na quantidade exata, reduzindo custos e aumentando a colheita.</p>
+            </div>
+            <div class="card">
+                <h4>💧 Gestão de Irrigação</h4>
+                <p>Sistemas automatizados que analisam a umidade do solo em tempo real, evitando o desperdício de água e garantindo a hidratação ideal da planta.</p>
+            </div>
+            <div class="card">
+                <h4>📊 Consultoria Técnica</h4>
+                <p>Nossa equipe de agrônomos oferece suporte completo para planejar sua safra, combater pragas e melhorar a qualidade da sua terra.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AgroTech - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
